@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3781857024616316218}
   m_Layer: 0
   m_Name: PlatformModel
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -151,7 +151,7 @@ GameObject:
   - component: {fileID: 356293767113865372}
   m_Layer: 0
   m_Name: Platform20
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

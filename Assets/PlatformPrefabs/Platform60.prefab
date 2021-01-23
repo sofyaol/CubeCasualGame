@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 323939681016144802}
   m_Layer: 0
   m_Name: Platform60
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 3395645129927808822}
   m_Layer: 0
   m_Name: PlatformModel
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

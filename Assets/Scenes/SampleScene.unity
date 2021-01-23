@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 71022438}
   m_Layer: 0
   m_Name: Top
-  m_TagString: Untagged
+  m_TagString: Gate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1245,7 +1245,7 @@ GameObject:
   - component: {fileID: 1095630500}
   m_Layer: 0
   m_Name: Gate
-  m_TagString: Untagged
+  m_TagString: Gate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1667,7 +1667,7 @@ GameObject:
   - component: {fileID: 1512400544}
   m_Layer: 0
   m_Name: ColumnLeft
-  m_TagString: Untagged
+  m_TagString: Gate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1774,7 +1774,7 @@ GameObject:
   - component: {fileID: 1523398575}
   m_Layer: 0
   m_Name: StartPlatform
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2120,7 +2120,7 @@ GameObject:
   - component: {fileID: 1796964819}
   m_Layer: 0
   m_Name: ColumnRight
-  m_TagString: Untagged
+  m_TagString: Gate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2551,7 +2551,7 @@ GameObject:
   - component: {fileID: 6861158987228257288}
   m_Layer: 0
   m_Name: StartPlatformModel
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2725,7 +2725,7 @@ PrefabInstance:
     - target: {fileID: 6062722333194491625, guid: d426b2cdb980b484e8db688fb094bd28,
         type: 3}
       propertyPath: m_Constraints
-      value: 82
+      value: 114
       objectReference: {fileID: 0}
     - target: {fileID: 6062722333194491625, guid: d426b2cdb980b484e8db688fb094bd28,
         type: 3}
@@ -3023,6 +3023,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1523398574}
     m_Modifications:
+    - target: {fileID: 7974769248023648061, guid: 3ce0718785f485548a3f501eec004ff8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gate
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974769248808957533, guid: 3ce0718785f485548a3f501eec004ff8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gate
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974769249016538426, guid: 3ce0718785f485548a3f501eec004ff8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gate
+      objectReference: {fileID: 0}
     - target: {fileID: 7974769249238937008, guid: 3ce0718785f485548a3f501eec004ff8,
         type: 3}
       propertyPath: m_Name

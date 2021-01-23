@@ -7,6 +7,7 @@ TagManager:
   - PlayerCube
   - Marker
   - Gate
+  - Platform
   layers:
   - Default
   - TransparentFX
