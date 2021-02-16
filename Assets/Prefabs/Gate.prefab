@@ -196,7 +196,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1334145653726595020}
   - component: {fileID: 1334145653726595023}
-  - component: {fileID: 1334145653726595026}
   m_Layer: 0
   m_Name: Cubes
   m_TagString: Untagged
@@ -250,35 +249,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1334145653726595026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1334145653726595021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d52422cd59595b345bbdd468f80b95af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cubesArray:
-  - {fileID: 1334145653347086931}
-  - {fileID: 6594220257863845946}
-  - {fileID: 4851204247509415269}
-  - {fileID: 735927310287955287}
-  - {fileID: 3228257044393152742}
-  - {fileID: 7335700416975235727}
-  - {fileID: 9015138028359555024}
-  - {fileID: 3780856789603338210}
-  - {fileID: 3228257046386025953}
-  - {fileID: 7335700417163501448}
-  - {fileID: 9015138028245869271}
-  - {fileID: 3780856788365554405}
-  - {fileID: 3228257045752438207}
-  - {fileID: 7335700417796597718}
-  - {fileID: 9015138027536751241}
-  - {fileID: 3780856788814088891}
 --- !u!1 &3228257044393152742
 GameObject:
   m_ObjectHideFlags: 0
@@ -1391,7 +1361,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7974769248023648061}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.0009778, y: 0.7979857, z: 1}
@@ -1501,7 +1471,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7974769248808957533}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.9607452, y: 1, z: 1}
@@ -1610,7 +1580,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7974769249016538426}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.9577074, y: 1, z: 1}
@@ -1624,6 +1594,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7974769249238937009}
+  - component: {fileID: 1422858233312879712}
   m_Layer: 0
   m_Name: Gate
   m_TagString: Gate
@@ -1649,6 +1620,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1422858233312879712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7974769249238937008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d52422cd59595b345bbdd468f80b95af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubesArray:
+  - {fileID: 1334145653347086931}
+  - {fileID: 6594220257863845946}
+  - {fileID: 4851204247509415269}
+  - {fileID: 735927310287955287}
+  - {fileID: 3228257044393152742}
+  - {fileID: 7335700416975235727}
+  - {fileID: 9015138028359555024}
+  - {fileID: 3780856789603338210}
+  - {fileID: 3228257046386025953}
+  - {fileID: 7335700417163501448}
+  - {fileID: 9015138028245869271}
+  - {fileID: 3780856788365554405}
+  - {fileID: 3228257045752438207}
+  - {fileID: 7335700417796597718}
+  - {fileID: 9015138027536751241}
+  - {fileID: 3780856788814088891}
 --- !u!1 &9015138027536751241
 GameObject:
   m_ObjectHideFlags: 0
